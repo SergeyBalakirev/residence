@@ -1,18 +1,44 @@
 @import 'fonts';
 @import 'global';
 
+.slide {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.slide-1 {
+  background-image: url(../images/header-bg1.jpg);
+}
+
+.slide-2 {
+  background-image: url(../images/header-bg2.jpg);
+}
 
 
+.section-2 {
+  background-image: url(../images/galery-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 359px;
+  
+}
 
+#fp-nav ul li {
+  display: block;
+  width: 14px;
+  height: 13px;
+  margin: 110px 29px;
+  position: relative;
+  
+}
 
+// .fp-slidesNav ul li {
 
-
-
-
-
-
-
-
+// }
 
 
 
