@@ -9,6 +9,7 @@
   "author": "Sergey",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "cssmin": "^0.4.3",
     "fullpage.js": "^3.0.9",
     "gulp": "^4.0.2",

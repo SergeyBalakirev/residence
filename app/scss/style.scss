@@ -1,12 +1,15 @@
 @import 'fonts';
 @import 'global';
 
+
+
+
+// start section-1 
+
 .slide {
-  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
 }
 
 .slide-1 {
@@ -17,6 +20,54 @@
   background-image: url(../images/header-bg2.jpg);
 }
 
+.header {
+  padding: 22px 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  &__logo {
+    display: inline-block;
+    margin-right: 121px;
+  }
+  &__phone {
+    padding-left: 42px;
+    position: relative;
+    &::before {
+      content: '\f095';
+      font-family: 'icomoon';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid #757575;
+      color: #A68E52;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__phone-num {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A68E52;
+    text-decoration: none;
+  }
+  &__phone-txt {
+    font-size: 10px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ddd;
+    border-bottom: 1px solid #A68E52;
+    width: 80px;
+  }
+}
+// end section-1 
 
 .section-2 {
   background-image: url(../images/galery-bg.png);
@@ -24,7 +75,6 @@
   background-size: contain;
   background-position: center;
   max-width: 359px;
-  
 }
 
 #fp-nav ul li {
