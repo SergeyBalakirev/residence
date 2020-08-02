@@ -42,7 +42,14 @@
 
 
   <div id="modal" style="display: none;" class="phone-popup">
-    Заказать звонок
+    <div class="phone-popup__inner">
+      <h3 class="phone-popup__title">Заказать звонок</h3>
+      <form class="phone-popup__form">
+        <input class="phone-popup__item phone-popup__item--name" type="text" placeholder="Имя:*">
+        <input class="phone-popup__item phone-popup__item--tel" type="tel" placeholder="Телефон:*">
+        <button class="phone-popup__item phone-popup__item--btn" type="submit">отправить</button>
+      </form>
+    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
